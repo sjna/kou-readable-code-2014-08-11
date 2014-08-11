@@ -4,5 +4,5 @@ shでがんばります。
 
 ## 実行方法
 
-    % ./recipe.sh
+    % ./recipe.sh recipe-data.txt
     オムライス

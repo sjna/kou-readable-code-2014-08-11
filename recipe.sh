@@ -6,4 +6,8 @@ if [ $# -ne 1 ]; then
 fi
 
 data_file="$1"
-cat "$data_file"
+id=0
+cat "$data_file" | while read line; do
+    id=$((id + 1))
+    echo "${id}: ${line}"
+done
